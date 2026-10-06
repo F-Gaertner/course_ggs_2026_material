@@ -1,0 +1,8 @@
+# Windows .bat files need CRLF on disk; the Mac launcher needs LF.
+*.bat     text eol=crlf
+*.command text eol=lf
+*.pdf     binary
+
+# Keep the downloaded course folder to what participants use.
+.gitattributes export-ignore
+.gitignore     export-ignore

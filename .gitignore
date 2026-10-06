@@ -1,0 +1,11 @@
+# Public repo: deny everything, whitelist only what participants receive.
+*
+!.gitignore
+!.gitattributes
+!README.md
+!syllabus.pdf
+!launcher/
+!launcher/claude-jlu.bat
+!launcher/claude-jlu.command
+!slides/
+!slides/*.pdf
